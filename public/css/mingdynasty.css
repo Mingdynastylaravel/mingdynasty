@@ -1,0 +1,11 @@
+body {
+	background-color: green;
+}
+.navbar {
+	background-color: white;
+}
+.footer {
+	background-color: white;
+	margin-top: 10%;
+	/*position: fixed-bottom;*/
+}

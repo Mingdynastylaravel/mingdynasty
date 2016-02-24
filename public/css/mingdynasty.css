@@ -1,5 +1,5 @@
 body {
-	background-color: green;
+	background-image: url(/img/background.png);
 }
 .navbar {
 	background-color: white;
@@ -8,4 +8,14 @@ body {
 	background-color: white;
 	margin-top: 10%;
 	/*position: fixed-bottom;*/
+}
+.footline {
+	text-decoration: underline;
+}
+.disclaimer {
+	font-size: 10px;
+}
+.logo {
+	height: 30%;
+	width: 30%;
 }

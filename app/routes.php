@@ -11,7 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@landingpage');
+
+Route::get('/about', 'HomeController@about');
+
+Route::get('/services', 'HomeController@services');
+
+Route::get('/contact', 'HomeController@contact');
+
+Route::post('/contact', 'HomeController@sendcontact');
+
+Route::get('/products', 'HomeController@products');

@@ -15,9 +15,33 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function landingpage()
 	{
-		return View::make('hello');
+		return View::make('landing');
 	}
 
+	public function about()
+	{
+		return View::make('about');
+	}
+
+	public function services()
+	{
+		return View::make('services');
+	}
+
+	public function contact()
+	{
+		return View::make('contact');
+	}
+
+	public function sendcontact()
+	{
+		return Redirect::action('HomeController@landingpage');
+	}
+
+	public function products()
+	{
+		return View::make('products');
+	}
 }

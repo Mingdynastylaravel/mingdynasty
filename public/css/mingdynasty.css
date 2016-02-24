@@ -1,12 +1,28 @@
 body {
 	background-image: url(/img/background.png);
 }
-.navbar {
+/*.navbar {
 	background-color: white;
+	padding-top: 1%;
+}*/
+a {
+	color: black;
+}
+a:hover {
+	color:black;
+	text-decoration: none;
+}
+.navarea {
+	background-color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.navarea:hover {
+	background-color: #ddd;
 }
 .footer {
 	background-color: white;
-	margin-top: 10%;
+	/*margin-top: 10%;*/
 	/*position: fixed-bottom;*/
 }
 .footline {

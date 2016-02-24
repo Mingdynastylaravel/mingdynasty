@@ -11,24 +11,21 @@
 	<div class="navbar-fixed-top">
 		<div class="row topnavbar">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-				<img class="logo" src="/img/logo.png">
+				<a href="{{{action('HomeController@landingpage')}}}"><img class="logo" src="/img/logo.png"></a>
 			</div>
 		</div>
 		<div class="row navbar">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-				<a href="{{{action('HomeController@landingpage')}}}"><div class="col-lg-2 col-md-2">
-					Welcome
-				</div></a>
-				<a href="{{{action('HomeController@about')}}}"><div class="col-lg-2 col-md-2">
+				<a href="{{{action('HomeController@about')}}}"><div class="navarea aboutnav col-lg-3 col-md-3">
 					About Ming Dynasty
 				</div></a>
-				<a href="{{{action('HomeController@services')}}}"><div class="col-lg-2 col-md-2">
+				<a href="{{{action('HomeController@services')}}}"><div class="navarea signaturenav col-lg-3 col-md-3">
 					Signature Services
 				</div></a>
-				<a href="{{{action('HomeController@contact')}}}"><div class="col-lg-2 col-md-2">
+				<a href="{{{action('HomeController@contact')}}}"><div class="navarea appointmentnav col-lg-3 col-md-3">
 					Request Appointment
 				</div></a>
-				<a href="{{{action('HomeController@products')}}}"><div class="col-lg-4 col-md-4">
+				<a href="{{{action('HomeController@products')}}}"><div class="navarea productsnav col-lg-3 col-md-3">
 					Products and Gift Certificates
 				</div></a>
 			</div>

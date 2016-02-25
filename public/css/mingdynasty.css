@@ -1,5 +1,6 @@
 body {
 	background-image: url(/img/background.png);
+	overflow-x: hidden;
 }
 /*.navbar {
 	background-color: white;
@@ -12,7 +13,11 @@ a:hover {
 	color:black;
 	text-decoration: none;
 }
+.topnavbar {
+	/*background-color: white;*/
+}
 .navarea {
+	margin-top: -.5%;
 	background-color: white;
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -25,6 +30,9 @@ a:hover {
 	/*margin-top: 10%;*/
 	/*position: fixed-bottom;*/
 }
+.heading {
+	text-decoration: underline;
+}
 .footline {
 	text-decoration: underline;
 }
@@ -34,4 +42,16 @@ a:hover {
 .logo {
 	height: 30%;
 	width: 30%;
+}
+.reflex {
+	height: 100%;
+	width: 81%;
+}
+.bottomsection {
+	margin-bottom: 15%;
+}
+.about {
+	background-color: white;
+	/*margin-top: 20%;*/
+	font-family: palatino linotype,serif;
 }

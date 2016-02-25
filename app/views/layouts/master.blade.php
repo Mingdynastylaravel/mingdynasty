@@ -8,14 +8,14 @@
 </head>
 <body>
 <div class="container-fluid">
-	<div class="navbar-fixed-top">
+	<div>
 		<div class="row topnavbar">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 				<a href="{{{action('HomeController@landingpage')}}}"><img class="logo" src="/img/logo.png"></a>
 			</div>
 		</div>
 		<div class="row navbar">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<div class="col-lg-14 col-md-14 col-sm-14 col-xs-14 text-center">
 				<a href="{{{action('HomeController@about')}}}"><div class="navarea aboutnav col-lg-3 col-md-3">
 					About Ming Dynasty
 				</div></a>
@@ -34,16 +34,16 @@
 	<div class="footer navbar-fixed-bottom">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-				<strong><div class="col-lg-4 col-md-4">
+				<strong><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<span class="footline">Call us to book</span></strong><br>
 					1-806-355-5695<br>
 					1-806-676-8252 (text)
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<strong><span class="footline">Email us</span></strong><br>
 					thai@mingdynasty.co
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<strong><span class="footline">Find us</span></strong><br>
 					5221 Floyd Ave<br>
 					Amarillo, TX 79106

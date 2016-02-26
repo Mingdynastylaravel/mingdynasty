@@ -15,7 +15,13 @@ Route::get('/', 'HomeController@landingpage');
 
 Route::get('/about', 'HomeController@about');
 
-Route::get('/services', 'HomeController@services');
+// Route::get('/services', 'HomeController@services');
+
+Route::get('/services/completesession', 'HomeController@completesession');
+
+Route::get('/services/pedicure', 'HomeController@pedicure');
+
+Route::get('/services/manicure', 'HomeController@manicure');
 
 Route::get('/contact', 'HomeController@contact');
 

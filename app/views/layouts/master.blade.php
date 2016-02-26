@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ming Dynasty Reflexology</title>
+	<title>Ming Dynasty Reflexology | Natural and Effective pain </title>
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="/css/mingdynasty.css">
 	@yield('top-script')
@@ -19,9 +19,22 @@
 				<a href="{{{action('HomeController@about')}}}"><div class="navarea aboutnav col-lg-3 col-md-3">
 					About Ming Dynasty
 				</div></a>
-				<a href="{{{action('HomeController@services')}}}"><div class="navarea signaturenav col-lg-3 col-md-3">
-					Signature Services
-				</div></a>
+
+			{{-- Dropdown menu starts here --}}
+			<div class="col-lg-3 col-md-3 navarea">
+				<div class="dropdown">
+					<div id="dropdownservice" class="dropdown-toggle signaturenav" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Signature Services
+					</div>
+					<ul class="dropdown-menu servicedropdown" aria-labelledby="dropdownservice">
+						<li><a href="{{{action('HomeController@completesession')}}}">Complete Reflexology Session</a></li>
+						<li><a href="{{{action('HomeController@pedicure')}}}">High Quality Pedicure</a></li>
+						<li><a href="{{{action('HomeController@manicure')}}}">Rejuvenating Manicure</a></li>
+					</ul>
+				</div>
+			</div>
+
+
 				<a href="{{{action('HomeController@contact')}}}"><div class="navarea appointmentnav col-lg-3 col-md-3">
 					Request Appointment
 				</div></a>

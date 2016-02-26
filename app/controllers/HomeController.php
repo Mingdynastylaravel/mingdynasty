@@ -30,6 +30,21 @@ class HomeController extends BaseController {
 		return View::make('services');
 	}
 
+	public function completesession()
+	{
+		return View::make('session');
+	}
+
+	public function pedicure()
+	{
+		return View::make('pedicure');
+	}
+
+	public function manicure()
+	{
+		return View::make('manicure');
+	}
+
 	public function contact()
 	{
 		return View::make('contact');

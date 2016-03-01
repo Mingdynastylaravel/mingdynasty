@@ -41,9 +41,10 @@ a:hover {
 	text-decoration: underline;
 }
 .productpicture {
-	height: 20px;
+	height: 50px;
 	width: 100%;
 	background-color: black;
+	margin-bottom: 3%;
 }
 .disclaimer {
 	font-size: 10px;

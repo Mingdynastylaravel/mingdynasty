@@ -27,17 +27,37 @@ a:hover {
 }
 .footer {
 	background-color: white;
+	margin-top: 5%;
+	/*margin-bottom: -10%;*/
+	margin-left: -5%;
+	margin-right: -5%;
 	/*margin-top: 10%;*/
 	/*position: fixed-bottom;*/
 }
-.heading {
+/*.heading {
 	text-decoration: underline;
-}
+}*/
 .footline {
 	text-decoration: underline;
 }
+.productpicture {
+	height: 20px;
+	width: 100%;
+	background-color: black;
+}
 .disclaimer {
 	font-size: 10px;
+}
+.divider {
+	height: 1px;
+	width: 100%;
+	opacity: .9;
+	background-color: black;
+	background-position: center;
+}
+.productslist {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .logo {
 	height: 30%;
@@ -49,7 +69,7 @@ a:hover {
 }
 .maparea {
 	margin-top: -10%;
-	margin-bottom: 10%;
+	/*margin-bottom: 10%;*/
 }
 .link {
 	margin-bottom: 10%;
@@ -70,9 +90,9 @@ a:hover {
 	width: 400px;
 	background-color: black;
 }
-.bottomsection {
+/*.bottomsection {
 	margin-bottom: 15%;
-}
+}*/
 .about {
 	background-color: white;
 	/*margin-top: 20%;*/

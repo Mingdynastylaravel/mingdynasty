@@ -4,6 +4,7 @@
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center">
 			<h1 class="heading">Complete Reflexology Session</h1>
+			<div class="divider"></div>
 		</div>
 	</div>
 	<div class="sessiontime row">

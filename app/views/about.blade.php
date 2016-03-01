@@ -3,6 +3,7 @@
 <div class="row">
 	<div class="about text-center col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
 		<h1 class="heading">About Ming Dynasty</h1>
+		<div class="divider"></div>
 		<h4>Ming Dynasty specializes in natural and effective pain relief. With over two decades of reflexology experience, founder Thai Hoang can expertly ease you back into enjoying activities that have been interrupted by pain and discomfort. In addition, Thai also provides exclusive and excellent pedicures and manicures.</h4>
 	</div>
 </div>

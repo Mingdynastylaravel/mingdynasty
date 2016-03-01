@@ -6,6 +6,7 @@
 			<h1 class="heading">
 				Rejuvenating Manicure
 			</h1>
+			<div class="divider"></div>
 		</div>
 	</div>
 	<div class="sessiontime row">

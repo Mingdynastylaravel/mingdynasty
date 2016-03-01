@@ -44,9 +44,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer navbar-fixed-bottom">
+@yield('content')
+	<div class="footer navbar-bottom">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<div class="col-lg-14 col-md-14 col-sm-14 col-xs-14 text-center">
 				<strong><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<span class="footline">Call us to book</span></strong><br>
 					1-806-355-5695<br>
@@ -64,14 +65,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<div class="col-lg-14 col-md-14 col-sm-14 col-xs-14 text-center">
 				<div class="col-lg-6 col-lg-offset-3">
 					<span class="disclaimer">Copyright © 2016 Ming Dynasty | Site Design by Victor Vo and Reagan Wilkins</span>
 				</div>
 			</div>
 		</div>
 	</div>
-@yield('content')
 </div>
 
 <script src="/js/jquery.js"></script>

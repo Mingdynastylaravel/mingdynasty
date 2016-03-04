@@ -45,7 +45,7 @@
 		</div>
 	</div>
 @yield('content')
-	<div class="footer navbar-bottom">
+	<div class="footer navbar-fixed-bottom">
 		<div class="row">
 			<div class="col-lg-14 col-md-14 col-sm-14 col-xs-14 text-center">
 				<strong><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">

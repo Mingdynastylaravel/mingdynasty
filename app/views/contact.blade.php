@@ -58,6 +58,7 @@
 				</div>
 	</div>
 </div>
+<br><br><br><br><br>
 @stop
 @section('bottom-script')
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeynTTojZWMRs8rdixeaNibGGEgS-MEk"></script>

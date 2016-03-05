@@ -42,11 +42,12 @@
 			<div class="col-lg-3 col-md-3">
 				<div class="productpicture"></div>
 			</div>
-			
+
 			<div class="col-lg-3 col-md-3">
 				<div class="productpicture"></div>
 			</div>
 		</div>
 	</div>
 </div>
+<br><br><br><br><br>
 @stop
